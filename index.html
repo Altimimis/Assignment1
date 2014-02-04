@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+
+<html>
+
+        <head>
+        <meta charset="utf-8">
+        <title>Brainstation</title>
+        <link rel="stylesheet" type="text/css" href="css/Styles.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" ></script>
+
+         <script>
+                function jsonFlickrFeed(data) {
+                        var html, i, item;
+                        html = '<h1>';
+                        html += data.title;
+                        html += '</h1>';
+                        for (i = 0; i < 2; i++) {
+                                item = data.items[i];
+                                html += '<p>' + item.title + '</p>';
+                                html += '<img src="' + item.media.m + '">';
+                        }
+                        
+                        $('.main-left').html(html) 
+                }
+        </script>
+        
+
+        
+    </head>
+
+    <body>
+        
+        <section class="header"> 
+            <header>
+              <nav class ="menu group"> 
+                <ul>
+                <img src="images/logo-blue.png" class="logo">
+
+              
+                    <li><a href= # >Home </a></li>
+                    <li><a href= "courses.html">Courses</a></li>
+                    <li><a href ="stuednts.html">Students</a></li>
+                    <li><a href ="blog.html">Blog</a></li>
+
+                    </ul>    
+                </nav>
+
+            </header>
+           </section>
+           <div class="clearfix main">
+           <section class="main-left"> 
+            <script src="http://api.flickr.com/services/feeds/photos_public.gne?format=json"></script>
+
+            </section>  
+
+
+            <section class="main-right">
+               <h1>Front end technologies</h1>
+              
+                 <a href="#"> <img src="images/github.png" class="imgtech"> Git </a>
+                 <br></br>
+                   <a href="#"> <img src="images/js.png" class="imgtech"> Javascript </a>
+                   <br>
+                    <a href="#"> <img src="images/html5.png" class="imgtech"> Html5 </a>
+                    <br>
+                    <a href="#"> <img src="images/jquery.png" class="imgtech"> Jquery</a>
+
+               </ul>
+
+            </section>
+            </div>
+    </body>
+
+    <footer> 
+    <section>
+    <hr> 
+    <h3>Copyright Saif Altimimi</h3>
+    </hr>
+
+         <nav class="social-nav group">
+            <a href="http://facebook.com" class="sprite-social facebook"> Facebook</a>
+            <a href="http://twitter.com" class="sprite-social twitter"> Twitter</a>
+            <a href="http://linkedin.com" class="sprite-social linkedin">Linkedin</a>
+            <a href="http://plus.google.com" class="sprite-social google">Google</a>
+        </nav>
+      </section>
+    </footer>
+  
+
+</html>

@@ -1,0 +1,177 @@
+html, body {
+	background-color: #E3E4E8;
+	margin:0;
+	font-size: 16px;
+	color: #211F1F;
+	font-family: Helvetica, Arial, sans-serif;
+}
+header ul {
+	margin:0;
+
+
+}
+
+h1 {
+	float:left;
+	font-size: 16px;
+	color: #333;
+	padding:0px 570px 20px 440px;
+	
+
+}
+
+h2 {
+
+	font-size: 16px;
+	color: #333;
+	text-align:center;
+}	
+h4 {
+
+	
+	padding:0 0 0 300px;
+}
+h5 {
+
+	margin-left: 80px;
+	margin-top: 50px;
+
+}
+
+ p {
+
+ 	font-size:14px;
+ 	margin-left: 80px;
+
+
+}
+
+.header {
+
+	width: 1600px;
+	height:70px;
+	background-color: #2A2B2B;
+}
+
+.logo {
+	float: left;
+	margin-right: 20px;
+
+}
+.menu li {
+	display:inline-block;
+	height: 70px;
+	line-height: 70px;
+	padding: 0px 5px;
+	color: #FFFFFF;
+}
+.menu a {
+	background:#373B40;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+
+}
+.menu a:hover {
+	background:#373B40;
+	text-decoration: none;
+	color: #35373B;
+	padding: 3px 1px;
+}
+
+.main-courses {
+
+	width: 1000px;
+	height: 660px;
+	background-color: #fff;
+
+}
+
+.imgclass {
+	width: 300px;
+	height:200px;
+	margin-top: 20px;
+	padding:0 0 0 80px;
+
+}
+
+.imgclass1 {
+
+	width: 100px;
+	height:80px;
+	margin-bottom: 90px;
+	padding:0 0 0 80px;
+}
+
+.sprite-social {
+	display: block;
+	text-indent:40px; 
+	width:32px;
+	height: 32px;
+	margin-right: 250px;
+	margin-top:10px;
+	background-image: url(../images/social-sprite.png);
+
+}
+.sprite-social.facebook { background-position: 0 0; }
+.sprite-social.twitter  { background-position: -32px 0; }
+.sprite-social.linkedin { background-position: 0 -32px; }
+.sprite-social.google   { background-position: -32px -64px; }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.main {
+	width: 1000px;
+	margin:	20px auto;
+
+}
+
+.social-nav {
+	float: right;
+	
+
+
+}
+
+.buttons li {
+
+	height: 45px;
+	text-align: center;
+	line-height:45px;
+	width: 180px;
+	background-color: #C0C0C0;
+	margin-left: 100px;
+	display: inline-block;
+	padding: 0 5px;
+
+
+}
+
+.buttons a {
+	
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	}
+
+.buttons li:hover {
+	background:#373B40;
+	text-decoration: none;
+	color: #35373B;
+	
+
+}
+
+
+
+
+
